@@ -1,3 +1,7 @@
+body{
+  background:linear-gradient(to right,#bfcccaaf,#dfe4e7,#bedddd);
+}
+
 section{
   width: 80%;
   margin: auto;
@@ -16,7 +20,8 @@ section{
   cursor: pointer;
 }
 .image_box img{
-  width: 150px;
+  border-radius: 2px 20px ;
+  width: 200px;
   height: 200px;
 }
 .details p:nth-child(1){
@@ -31,12 +36,23 @@ section{
   color: grey;
 }
 .details button{
+  cursor: grab;
   padding: 5px 10px;
   border: none;
   font-weight: bold;
   background-color: skyblue;
   outline: none;
   border-radius: 2px;
+}
+.details button:hover{
+  background: linear-gradient(to right,#eb0404, #3498db);
+  font-weight: bolder;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform:scale(1.1);
+  font-size: 14px;
+
+
 }
 /* Add the following styles to your cart.css file or in your component */
 
