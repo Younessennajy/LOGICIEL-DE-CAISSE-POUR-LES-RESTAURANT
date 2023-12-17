@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-top: -20px;
+    background-color: #2196F3; 
+    width: 100%;
+}
+
+.nav_box {
+    width: 100%;
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.nav_box .my_shop {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff; 
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart span {
+    margin-left: 0.5rem;
+    color: #fff; 
+    font-size: 40px;
+}
+
+#count{
+    font-size: 1.5rem;
+    color: red;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    font-weight: bold;
+}
+
+/* Add a subtle hover effect to the cart */
+.cart:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
