@@ -7,11 +7,11 @@
 nav {
     margin-top: -20px;
     background-color: #2196F3; 
-    width: 100%;
+    max-width: 100%;
 }
 
 .nav_box {
-    width: 100%;
+    width: 90%;
     margin: 20px 40px;
     display: flex;
     align-items: center;
@@ -34,13 +34,13 @@ nav {
 .cart span {
     margin-left: 0.5rem;
     color: #fff; 
-    font-size: 40px;
+    font-size: 45px;
 }
 
 #count{
     font-size: 1.5rem;
     color: red;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     margin-left: -20px;
     font-weight: bold;
 }

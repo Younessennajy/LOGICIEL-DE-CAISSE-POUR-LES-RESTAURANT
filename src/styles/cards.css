@@ -1,5 +1,22 @@
+/* cards.css */
+.cards {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.cards.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+
 body{
   background:linear-gradient(to right,#bfcccaaf,#dfe4e7,#bedddd);
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 section{
@@ -15,6 +32,7 @@ section{
   width: 250px;
   padding: 20px;
 }
+
 .cards:hover{
   box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
   cursor: pointer;

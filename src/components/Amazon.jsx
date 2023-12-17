@@ -31,7 +31,7 @@ const Amazon = ({ handleClick }) => {
     <>
       <div className="div_section">
         <div className="selection">
-          <label>Choisir une categorie :</label>
+          <label>Selecting a category:</label>
           <select value={selectcategorie} onChange={handlechange}>
             <option value="all">all</option>
             <option value="Juice">Juice</option>
